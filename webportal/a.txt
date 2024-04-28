@@ -1,0 +1,14 @@
+   <div className="flex justify-between items-center">
+        <div className="flex items-center">
+          <ThemeIcon
+            radius="xl"
+            className={`bg-[${props.priorityColor}]`}
+          ></ThemeIcon>
+          <Title order={2}>{props.title}</Title>
+        </div>
+        <div className="flex flex-col items-end">
+          <Text>{props.date}</Text>
+          <Text>{props.time}</Text>
+        </div>
+      </div>
+      <div className="mt-4">adaldnalkdnalkfalnfn adaldnalkdnalkfalnfn</div>
